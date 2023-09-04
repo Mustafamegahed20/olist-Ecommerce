@@ -22,7 +22,7 @@ You can find the dataset [here] [https://www.kaggle.com/datasets/olistbr/brazili
 ## Architecture
 I developed Data warehouse based on a star schema and identified fact tables is Fact_orders. On the other hand, identified dimension tables are Dim_costomer, Dim_seller, Dim_product, Dim_date,Dim_Payment
 ### StarSchema
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/f2fb476e-52a6-49f4-bef3-26089f886b2b)
+![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/86c0f973-1315-47b9-93a9-b988e152b0bc)
 
 
 
@@ -30,49 +30,55 @@ I developed Data warehouse based on a star schema and identified fact tables is 
 
 By using SSIS, I perform ETL process involves extracting data from Csv files, transforming it to fit our data warehouse schema, and loading it,also i have implemented incremental loading and SCD types to efficiently manage data updates.
 ### Fact_order control flow 
-![fact](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/4d3d8339-d7c5-4c2f-a127-06dad9275bbc)
+![fact](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/f119d7f7-284a-4d4c-add1-60fb76faa5df)
+
 
 ### Fact_order Data flow 
-![fact2](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/fa935610-b60e-4785-844b-f4a3e52b90b3)
+![fact2](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/33e1bb1d-0aa4-4a18-809a-67ec283ef024)
 
 ### Customer_Dim Data flow 
-![CustomerFlow](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/af1aa2b1-4764-4bce-b601-168fd92bc9bc)
+![CustomerFlow](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/7f6596d6-c55b-4cd3-a076-772ea2f7bc84)
 
 ### Seller_Dim Data flow
-![SellerDim](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/ad2ec3cd-e689-4457-b12f-2e488ce0d533)
+![SellerDim](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/6855539d-e0a8-495e-addd-5e2c829e441e)
 
 ### Product_Dim Data flow
-![ProductDim](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/201b2d2d-88a2-44a2-a45d-1f0611c68f02)
+![ProductDim](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/ca0f2fca-4265-4487-a837-8c92da610126)
 
 ### Payment_Dim Data flow
-![payment Dim](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/c8bdfcca-d0f0-4b7a-aee4-d9556ab9c214)
+![payment Dim](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/19d71792-1095-4893-92e0-0a0ea5ba06c5)
 
 ## Reporting 
 
 I generate various reports using SQL Server Reporting Services (SSRS) to provide insights into the Olist eCommerce data. 
 ### Paginated Reports 
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/69d19e84-dcd8-4089-b0b7-e3748efccb74)
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/fde2feed-1fab-44f5-9f9e-60697b374fac)
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/1c492b29-7d29-4c27-85f2-5def36c8b53d)
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/4e0ea12e-53f8-48ea-993f-749f5870ede9)
+![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/34aa8380-7b85-45a3-be59-5f66882fb484)
+![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/3506a08e-5726-4c1c-806d-a5023876d08b)
+![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/11a126c8-a798-4042-8943-fd67275aea51)
+![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/c1015f4a-65c0-4c4f-a36f-6cfadbca96f5)
 
 ## Data Visualization
 To visualize our data, I use Power BI. I have created interactive dashboards and visualizations to get insights from it. you can Find it in this Link [https://www.novypro.com/project/olist-ecommerce-power-bi]
 
    ### Welcome page
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/d4a53e14-d27e-403a-9257-31959fa69b9f)
+   ![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/a4fc7748-8594-4cb3-a92b-72ebf970bb38)
+
    ### Sales DashBoards
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/61ca44d6-6190-4f24-b51d-78ac8714c9d4)
+   ![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/50de5dd9-3d12-4724-aa3b-38a784460ba7)
+
    ### Orders DashBoards
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/b53331b8-4f15-463e-a810-285743768a69)
+   ![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/f8d67625-585f-4bd3-983b-f879c76fd0f6)
+
    ### Sellers DashBoards
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/2fab7c45-56ff-41e5-8c76-1511b110ba0d)
+   ![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/ce0c8db2-2f3a-4aa5-8272-e4f0e5181982)
    ### Customer DashBoards 
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/9c7c2669-38ba-4cc5-86ea-0831220dd1ea)
+   ![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/bbc47677-8a42-45e9-8b9b-e897d63b73bd)
+
    ### Summary DashBoards
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/9067a553-ceea-429e-91c5-5498079bb470)
+   ![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/3a81401f-bbfb-48e6-8786-32a6bbce1e9f)
+
    ### Tooltip
-![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/d4ac1729-2b93-4542-9b64-5db656edc2e6)
+   ![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/a93a948b-8a6d-4e80-8f71-a93033102715)
 
 
 
