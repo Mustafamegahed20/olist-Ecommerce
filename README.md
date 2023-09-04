@@ -1,5 +1,5 @@
-﻿# Olist eCommerce  Project
-
+﻿# Olist E-Commerce  Project
+![image](https://github.com/Mustafamegahed20/olist-Ecommerce/assets/61358936/d4a53e14-d27e-403a-9257-31959fa69b9f)
 ## Overview
 
 This project aims to design a data warehouse for Olist  E-commerce data, implement ETL processes using SSIS and implement incremental loading and slowly changing dimensions (SCD), and create reports using SQL Server Reporting Services (SSRS) and visualize the data using Power BI.
@@ -8,9 +8,9 @@ This project aims to design a data warehouse for Olist  E-commerce data, impleme
 
 - [Data Source](#data-source)
 - [Architecture](#architecture)
-- [ETL Process](#etl-process)
-- [Reporting](#reporting)
-- [Data Visualization](#data-visualization)
+- [ETL Process(SSIS)](#etl-process)
+- [Reporting(SSRS)](#reporting)
+- [Data Visualization(PowerBI)](#data-visualization)
 
 
 ## Data Source
